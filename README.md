@@ -1,4 +1,4 @@
-# pyDBMS — High-Performance User Database with Caching & Persistence
+# pyDBMS — Lightwork In-Memory User Database with Caching & Persistence
 
 A high-performance in-memory database for storing, managing, and persisting large numbers of User objects, with support for fast search, autosave, and file persistence.
 

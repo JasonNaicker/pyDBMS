@@ -33,15 +33,15 @@ file_manager.convert_file("users_db.json", "readable_db.json")
 ## Benchmarks(50 Iterations):
 
 ```python
-Operation                   Count(Users)  Avg(s)     Min(s)     Max(s)     StdDev
-________________________________________________________________________________
-Add Users                    1,000,000    0.4277     0.3511     1.9118     0.2809
-Search Users by Name           10,000     0.0180     0.0162     0.0207     0.0011
-Check Users by ID              10,000     0.0055     0.0040     0.0063     0.0006
-Remove Users by ID             10,000     0.0053     0.0039     0.0188     0.0026
-Remove Users by Name           10,000     0.0056     0.0032     0.0191     0.0027
-Save Database                1,000,000    2.5489     1.6052     3.9423     0.5457
-Backup Database              1,000,000    0.0681     0.0469     0.4139     0.0666
-Load Database                1,000,000    5.9910     4.7610     8.2773     0.7241
+Operation                   Count(Users)   Avg(s)     Min(s)     Max(s)    StdDev
+_________________________________________________________________________________
+Add Users                     100,000     0.4275     0.3687     2.2489     0.2632
+Search Users by Name          100,000     0.1804     0.1690     0.2082     0.0086
+Check Users by ID             100,000     0.0593     0.0542     0.0738     0.0038
+Remove Users by ID            100,000     0.0565     0.0488     0.1737     0.0172
+Remove Users by Name          100,000     0.0649     0.0563     0.1736     0.0161
+Save Database                1,000,000    1.7574     1.3116     3.0439     0.4318
+Backup Database              1,000,000    0.0384     0.0331     0.0454     0.0035
+Load Database                1,000,000    5.1135     4.2678     6.5465     0.5048
 
 ```

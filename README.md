@@ -33,8 +33,8 @@ file_manager.convert_file("users_db.json", "readable_db.json")
 ## Benchmarks:
 
 ```python
-#Operation                     # Count     # Avg(s)     # Min(s)     # Max(s)     # StdDev
----------------------------------------------------------------------------
+#Operation                     Count     Avg(s)     Min(s)     Max(s)     StdDev
+________________________________________________________________________________
 Add Users                    1000000     0.4277     0.3511     1.9118     0.2809
 Search Users by Name           10000     0.0180     0.0162     0.0207     0.0011
 Check Users by ID              10000     0.0055     0.0040     0.0063     0.0006
